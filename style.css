@@ -352,17 +352,31 @@ body.rtl .lang-switcher {
     max-width: 600px;
     text-align: center;
 }
-.kek-div h2 {
-    color: #000000;
-   
+.kek-div h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+.kek-div img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+.kek-div p {
+    font-size: 18px;
+    color: #333;
 }
 .price {
     font-size: 24px;
-    color: #af0d0d;
     font-weight: bold;
     margin: 15px 0;
 }
-
+a {
+    text-decoration: none;
+    color: inherit;
+}
 @media (max-width: 768px) {
     nav {
         display: flex;
