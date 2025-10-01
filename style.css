@@ -373,7 +373,7 @@ body.rtl .lang-switcher {
     font-weight: bold;
     margin: 15px 0;
 }
-a {
+a .menu-item{
     text-decoration: none;
     color: inherit;
 }
