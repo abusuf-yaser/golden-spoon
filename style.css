@@ -373,9 +373,9 @@ body.rtl .lang-switcher {
     font-weight: bold;
     margin: 15px 0;
 }
-a .menu-item{
+a {
     text-decoration: none;
-    color: inherit;
+    
 }
 @media (max-width: 768px) {
     nav {
