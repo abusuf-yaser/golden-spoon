@@ -375,7 +375,6 @@ body.rtl .lang-switcher {
 }
 a {
     text-decoration: none;
-    
 }
 @media (max-width: 768px) {
     nav {

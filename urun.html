@@ -3,26 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Product Description - Chocolate Cake</title>
+    <title>Product Description</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
+
+
     <div class="kek-div">
-        <h1>Deluxe Chocolate Cake</h1>
+        <h1 data-translate="chocolate_cake">Deluxe Chocolate Cake</h1>
         <img src="./images/Chocolate Cake.jpg" alt="Chocolate Cake" width="300">
-        <p class="price"><strong>Price:</strong> $25</p>
+        <p class="price"><strong data-translate="price_label">Price:</strong> $25</p>
 
 
-        <h2>Product Description</h2>
-        <p>
+        <h2 data-translate="product_description_title">Product Description</h2>
+        <p data-translate="chocolate_cake_desc">
             A delicious chocolate cake filled with fresh cream, rich in flavor and perfect for any occasion such as
             birthdays and special parties.
             Made with high-quality ingredients to ensure every bite is soft, fresh, and full of taste.
         </p>
     </div>
-</body>
 
+  <footer>
+    <p data-translate="address">📍 Address: Istanbul, Turkey | 📞 Phone: +90 555 123 4567</p>
+    <p data-translate="copyright">&copy; 2025 Golden Spoon. All rights reserved.</p>
+  </footer>
+</body>
+<script src="./script.js" defer></script>
+<script src="./translations.js" defer></script>
 </html>
