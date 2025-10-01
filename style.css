@@ -450,6 +450,10 @@ a {
     .modal-content {
         width: 90%;
     }
+    .kek-div {
+        padding: 15px;
+        margin: 20px auto;
+    }
 
     .lang-switcher {
         position: static;
