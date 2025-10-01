@@ -343,7 +343,25 @@ body.rtl .menu-item {
 body.rtl .lang-switcher {
     text-align: left;
 }
-
+.kek-div {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 600px;
+    text-align: center;
+}
+.kek-div h2 {
+    color: #000000;
+   
+}
+.price {
+    font-size: 24px;
+    color: #af0d0d;
+    font-weight: bold;
+    margin: 15px 0;
+}
 
 @media (max-width: 768px) {
     nav {
