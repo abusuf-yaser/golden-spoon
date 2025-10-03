@@ -63,7 +63,7 @@ nav a.active {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
     text-align: center;
-    border-radius: 10px;
+    
 }
 
 .about h2 {
@@ -81,7 +81,6 @@ nav a.active {
 .featured {
     background: white;
     padding: 50px;
-    border-radius: 15px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     margin: 40px auto;
     text-align: center;
@@ -196,21 +195,21 @@ h3 {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.menu-item h3 p {
-    text-align: left;
-}
+
 
 .menu-item h3 {
+    text-align: left;
     margin: 0 0 8px 0;
     font-size: 24px;
     color: #af0d0d;
 }
 
 .menu-item p {
+    text-align: left;
     font-size: 20px;
     color: #523b3b;
     font-weight: bold;
-    ;
+    
 
 }
 
