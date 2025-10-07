@@ -23,16 +23,12 @@ const confirmation = document.getElementById('confirmation');
 if (form && confirmation) {
   form.addEventListener('submit', function (event) {
     event.preventDefault();
-
     const name = form.name.value;
     const date = form.date.value;
     const time = form.time.value;
     const party_size = form.party_size.value;
-
     const now = new Date();
     const selectedDateTime = new Date(date + 'T' + time);
-
-
     const selectedDate = new Date(date);
     const today = new Date();
     today.setHours(0, 0, 0, 0);
@@ -44,6 +40,7 @@ if (form && confirmation) {
         alert("Please select a time later than the current time.");
         return;
       }
+     
     }
 
 
@@ -62,9 +59,14 @@ if (form && confirmation) {
 
     confirmation.style.display = 'block';
     form.reset();
+  
   });
 }
-
+function myFunction() {
+  var myWindow = window.open("", "MsgWindow", "width=600,height=400");
+  myWindow.document.write(document.getElementById('print').innerHTML);
+  myWindow.print();
+}
 
 function translatePage(lang) {
   const elements = document.querySelectorAll("[data-translate]");
