@@ -1,11 +1,5 @@
 
 window.addEventListener('load', () => {
-  // const page = window.location.pathname.split("/").pop();
-  // if (page === "index.html") {
-  //   alert("Welcome to Golden Spoon! 🍕 Enjoy your visit!");
-  // }
-
-
   const dateInput = document.getElementById('date');
   if (dateInput) {
     const today = new Date();
