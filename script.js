@@ -57,7 +57,7 @@ if (form && confirmation) {
   });
 }
 function myFunction() {
-  var myWindow = window.open("", "MsgWindow", "width=600,height=400");
+  var myWindow = window.open("", "MsgWindow", "width=600,height=800");
   myWindow.document.write(document.getElementById('print').innerHTML);
   myWindow.print();
 }
